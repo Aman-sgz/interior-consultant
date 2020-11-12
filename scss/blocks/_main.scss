@@ -1,0 +1,27 @@
+.main-title {
+    font-family: $main-title, serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 36px;
+    color: $white;
+}
+
+.main-text {
+    font-family: $text, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    color: $white;
+    width: 250px;
+    height: 85px;
+}
+
+.main-more {
+    font-family: $text, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    color: $white;
+    width: 80px;
+    height: 17px;
+}
