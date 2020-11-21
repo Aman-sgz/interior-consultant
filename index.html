@@ -6,10 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1,
   maximum-scale=5" />
 
-  <link rel="icon" href="/assets/devchallenges.png"/>
+  <link rel="icon" href="/assets/devchallenges.png" />
 
   <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/styles.css">
   <title>Devchallenges || Interior Consultant</title>
 </head>
@@ -17,39 +18,62 @@
 <body>
   <div class="container">
 
-    <header class="design-header">
+    <header class="header">
       <button class="btn">This interior</button>
-      <button class="header__btn-mobile">menu</button>
+
+      <nav>
+        <ul class="menu" id="nav-menu">
+          <li class="menu__item"><a href="#" class="menu__link active">Home</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">Collection</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">About</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
+        </ul>
+      </nav>
+      
+    <!--   <div class="top-bar">
+        <div class="icon-menu" id="icon-menu">
+          <div class="icon-menu__bar"></div>
+        </div>
+      </div> -->
+
     </header>
 
-    <main>
-      <section class="main">
-        <h1 class="main-title">Modern interior</h1>
-        <p class="main-text">A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.</p>
-        <p class= "main-more">Read more</p> <!-- icon flecha -->
-      </section>
+  <main>
+    <section class="main">
+      <div class="main-info">
+        <h1 class="main__title">Modern interior</h1>
+        <p class="main__text">A full-service residential & commercial interior design and staging company offering
+          professional organizing & eco-services.</p>
+        <p class="main__more">Read more<i class="arrow-icon fa fa-long-arrow-right"></i></p> <!-- icon flecha -->
+      </div>
 
-      <section>
-        <img class="design-img" src="/assets/photo1.png" alt= "lightfull comfortably living room">
-      </section>
-
-      <section class="designer-card">
-        <div class="designer__header">
-          <img class="designer__img" src="/assets/photo2.png" alt= "Aliza Webber">
-          <p class="designer__name">Aliza Webber</p>
-          <p class="designer__position">Interior designer</p>
+      <div class="design-info">
+        <img class="design-img" src="/assets/photo1.png" alt="lightfull comfortably living room">
+        <div class="designer-card">
+          <div class="designer__header">
+            <img class="designer__img" src="/assets/photo2.png" alt="Aliza Webber">
+            <p class="designer__name">Aliza Webber</p>
+            <p class="designer__position">Interior designer</p>
+          </div>
+          <p class="designer__date">Designed in 2020 by Aliza Webber</p>
         </div>
-        <p class="designer__date">Designed in 2020 by Aliza Webber</p>
-      </section>
+      </div>
 
+    </section>
     </main>
 
+
     <footer>
-      <p>Your name @ DevChallenges.io</p>
+      <hr class="line__footer">
+      <p class="attributions">
+        <a href="https://github.com/Aman-sgz/interior-consultant" target="_blank">Aman-sgz</a>
+        <a href="https://devchallenges.io" target="_blank"> @Devchallenges.io</a>
+      </p>
     </footer>
 
   </div>
 
+  <!-- <script scr= "script.js"></script> -->
 </body>
 
 </html>

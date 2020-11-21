@@ -1,27 +1,72 @@
-.main-title {
+.main {
+    display: flex;
+    margin-top: 4rem;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.main-info {
+    margin-right: 1.5rem;
+
+    @media screen and (max-width: 768px) {
+        margin-bottom: 1.5rem;
+        margin-left: -2rem;        
+    }
+}
+
+.main__title {
     font-family: $main-title, serif;
     font-weight: normal;
     font-style: normal;
-    font-size: 36px;
+    font-size: 48px;
     color: $white;
+    margin-top: 0;
+
+    @media screen and (max-width:768px){
+        font-size: 36px;
+        text-align: left;
+    }
 }
 
-.main-text {
+.main__text {
     font-family: $text, sans-serif;
     font-weight: 300;
-    font-style: normal;
-    font-size: 14px;
+    font-style: light;
+    font-size: 24px;
     color: $white;
-    width: 250px;
-    height: 85px;
+    width: 410px;
+    height: 145px;
+    line-height: 29px;
+
+    @media screen and (max-width:768px){
+        font-size: 14px;
+        width: 250px;
+        height: 84px;
+        line-height: 17px;
+    }
 }
 
-.main-more {
+.main__more {
+    display: flex;
+    width: 170px;
+    height: 22px;
     font-family: $text, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 14px;
+    font-size: 18px;
     color: $white;
-    width: 80px;
-    height: 17px;
+
+    @media screen and (max-width:768px){
+        font-size: 14px;
+        width: 130px;
+        height: 17px;
+        margin-top: 1rem;
+    }
+}
+
+.arrow-icon {
+    padding-left: 1.5rem;
 }

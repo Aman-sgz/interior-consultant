@@ -1,0 +1,46 @@
+.line__footer {
+    display: none; 
+
+    @media screen and (max-width:768px){
+        display: block;
+        border: 1px solid $gray;
+        width: 261px;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 15rem;
+
+    @media screen and (max-width: 768px){
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.attributions {
+    font-family: $text, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+
+    @media screen and (max-width:768px){
+        width: 226px;
+        height: 18px;
+        font-size: 10px;
+    }
+}
+
+.attributions a {
+    color: $gray;
+    padding: 0.2rem;
+    text-decoration: none;
+
+    &:hover {
+        color: gray;
+    }
+}
