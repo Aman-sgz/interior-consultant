@@ -1,18 +1,20 @@
+// Imagen central más tarjeta del diseñador
 .design-info {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    border: 1px solid orange;
+    height: auto;
+    z-index: 50;
 }
 
+// Tarjeta del diseñador
 .designer-card {
     color: $white;
     padding: 1rem;
     width: 410px;
     height: 189px;
     background-color: $dark;
-    z-index: 10;
+    z-index: 100;
     margin-top: -5rem;
     margin-left: 21.5rem;
     max-width: 100vh;
@@ -21,7 +23,7 @@
         margin-top: -2rem;
         margin-left: 2rem;
         width: 260px;
-        height: 98px;
+        height: auto;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); //solo en mobile
     }
 }

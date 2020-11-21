@@ -1,4 +1,5 @@
-.design-img {/* cambiar la imagen de px , scroll que la imagen salta max-width*/
+// Imagen central
+.design-img {
     //width: 821px;
     //height: 526px;
     max-width: 100%;
@@ -12,6 +13,7 @@
     }
 }
 
+//Imagen del diseñador
 .designer__img {
     border-radius: 50%;
     height: 72px; 
@@ -20,14 +22,3 @@
         height: 52px;
     }
 }
-
-/* img max'width 100%
-img {
-    max-width:100%;
-    display:block;
-    height:auto;
-}
-se asegura al padre
-
-
-*/
