@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    border: 1px solid orange;
 }
 
 .designer-card {
@@ -10,16 +12,17 @@
     width: 410px;
     height: 189px;
     background-color: $dark;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     z-index: 10;
     margin-top: -5rem;
     margin-left: 21.5rem;
+    max-width: 100vh;
     
     @media screen and (max-width: 768px) {
         margin-top: -2rem;
         margin-left: 2rem;
         width: 260px;
         height: 98px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); //solo en mobile
     }
 }
 

@@ -13,7 +13,7 @@
 
     @media screen and (max-width: 768px) {
         margin-bottom: 1.5rem;
-        margin-left: -2rem;        
+        border: 1px solid purple;
     }
 }
 
@@ -58,6 +58,7 @@
     font-style: normal;
     font-size: 18px;
     color: $white;
+    text-decoration: none;
 
     @media screen and (max-width:768px){
         font-size: 14px;

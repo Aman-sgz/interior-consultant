@@ -1,14 +1,15 @@
 $height: 4px;
 $width:25px;
 
-
+// agregar position fixed al header, el top y el nav quedan fijos
 .header {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
+    border: 1px solid greenyellow;
 }
 
-.btn {
-    font-family: $btn, serif;
+.logo {
+    font-family: $logo, serif;
     font-weight: 200;
     font-style: normal;
     font-size: 14px;
@@ -17,7 +18,8 @@ $width:25px;
     width: 102px;
     height: 32px;
     border: 1px solid $white;
-    background-color: transparent;
+    text-align: center;
+    padding: 5px;
 }
 
 /* .icon-menu {
