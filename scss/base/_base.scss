@@ -9,9 +9,16 @@ body {
 .container {
     //margin: 0 auto;
     margin: 2rem 3.5rem;
+    border: 1px solid salmon;
+
 
     @media screen and (max-width: 768px){
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
+        //margin-left: 1rem;
+        //margin-right: 1rem;
+        
+            margin-left:0;
+            margin-right: 0;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
 }
